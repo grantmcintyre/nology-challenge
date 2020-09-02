@@ -1,5 +1,5 @@
 body{
-    background-image: url("linear-white-green-gradient-1920x1080-c2-90ee90-ffffff-a-90-f-14\ \(1\).png");
+    background-image: url("images/linear-white-green-gradient-1920x1080-c2-90ee90-ffffff-a-90-f-14\ \(1\).png");
     padding: 0px;
     margin: 0px;
     background-repeat: no-repeat;
@@ -49,12 +49,12 @@ a{
     bottom:0;
     color: #094413;
 }
-.right-footer{
+.mobile{
     float:right;
     margin-right:30px;
     bottom: 0;
 }
-.left-footer{
+.email{
     float:right;
     margin-right: 10px;
     bottom: 0;
@@ -70,11 +70,8 @@ a{
     border-color: lightgreen;
     margin:1px;
 }
-
-.header-card{
-    color: lightgreen;
-}
 .text-in-card{
+    display: none;
     color: lightgreen;
 }
 #about-right-column{
@@ -86,17 +83,13 @@ a{
     float: left;
     width: 40vw;
 }
-#moby-img{
-    padding-top: 40vh;
-    padding-right: 50vh;
-    background-image: url(moby\ pic.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+#image{
+    width: 100%;
+    height: 45%;
 }
-#moby-txt{
+#img-txt{
     font-style: italic;
 }
-
 h2{
     color: #094413;
     font-size: 30px;
@@ -106,11 +99,11 @@ h2{
     margin-left: 1vw;
     min-height: 39.5vh;
 }
-#celtic-img{
-    margin:0px;
-    padding-top: 40vh;
-    padding-right: 60vh;
-    background-image: url(celtic\ park\ glasgow.jpg);
-    background-repeat: no-repeat;
-    background-size: 86% 100%;
+button{
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: lightgreen;
+    background-color: transparent;
+    cursor: pointer;
 }
